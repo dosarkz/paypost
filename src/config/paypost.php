@@ -11,7 +11,7 @@ return [
     'stages' => [
         'test' => [
             'url' => 'https://testpay.post.kz',
-            'token' => env('PAY_POST_TEST_TOKEN', '5dec5abefbc058ea1daa2ae1fa682d0a2eb13357'),
+            'token' => env('PAY_POST_TEST_TOKEN'),
             'key' => env('PAY_POST_TEST_KEY', 'DEMO'),
         ],
         'prod' => [
