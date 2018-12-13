@@ -1,6 +1,6 @@
 # Paypost
 
-> The module for accepting payments by Kazpost
+> The module for accepting payments by Kazpost for laravel 5 and high
 
 - installation
 - example
