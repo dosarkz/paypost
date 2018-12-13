@@ -23,7 +23,7 @@ class PayPostServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__.'/config/paypost.php' => config_path('paypost.php'),
+            __DIR__.'/../config/paypost.php' => config_path('paypost.php'),
         ]);
     }
 
