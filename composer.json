@@ -15,7 +15,7 @@
   "autoload": {
     "classmap": [
       "src/config",
-      "src/Facades",
+      "src/Facade",
       "src/ServiceProviders",
       "src/"
     ],
