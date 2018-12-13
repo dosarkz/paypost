@@ -20,7 +20,7 @@ return [
             'key' => env('PAY_POST_PROD_KEY'),
         ]
     ],
-    'back_link' => 'https://allsai.kz/payment/back',
+    'back_link' => 'your back url',
     'urls' => [
         'generateUrl' => '/api/v0/orders/payment/',
     ]
