@@ -1,0 +1,36 @@
+{
+  "name": "dosarkz/paypost",
+  "description": "The Paypost module for accepting payments by Kazpost",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Yerzhan Hn",
+      "email": "ashenov.e@gmail.com"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^6.3"
+  },
+  "minimum-stability": "dev",
+  "autoload": {
+    "classmap": [
+      "src/config",
+      "src/Facades",
+      "src/ServiceProviders",
+      "src/"
+    ],
+    "psr-4": {
+      "Dosarkz\\PayPost\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Dosarkz\\PayPost\\PayPostServiceProvider"
+      ],
+      "aliases": {
+        "PayPost": "Dosarkz\\PayPost\\Facade\\PayPost"
+      }
+    }
+  }
+}
